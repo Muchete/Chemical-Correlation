@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Legend - Chemical Correlation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <div class="head">
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Visualization</a></li>
+                    <li class="active" ><a href="howto.html">Legend</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="cur">
+                <div id="curD">How to read the graph</div>
+            </div>
+        </div>
+        <img class="img100" src="howto.png">
+        <div class="list genres par">
+            <div class="subtitle"></div>
+            <div id="genreDiv">The visualization displays the correlation between popularity in music genres and drugs over the last 17 years. The goal was not to prove facts, but rather to let the viewer discover certain similarities and stimulate thoughts on what could have happened in a specific year. We chose two overlaying curves* to visualize the correlation.
+                <br>
+                <br>Green shows a certain drug, whereas red is a music genre. The X-axis represents time. Our visualization starts in 2000 and ends in 2017. The Y-axis shows the popularity in that specific year.
+                <br>
+                <br>We used a formula called the Pearson Correlation to calculate the similarities between our music genres and drugs. We converted the numeric output to five different expressions: 
+                <br>
+                <br>- very similar curve
+                <br>- slightly similar curve
+                <br>- neutral correlation
+                <br>- slightly converse curve
+                <br>- very converse curve
+                <br>
+                <br>*Each popularity curve was normalized in order to display the correlation visually more clear.
+            </div>
+        </div>
+        <script type="text/javascript" src="jquery-3.2.1.js"></script>
+</body>
+
+</html>

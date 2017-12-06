@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About - Chemical Correlation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <div class="head">
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Visualization</a></li>
+                    <li><a href="howto.html">Legend</a></li>
+                    <li class="active"><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="cur">
+                <div id="curD">About this Project</div>
+            </div>
+        </div>
+        <div class="list genres par">
+            <div id="genreDiv">Chemical Correlation is a project from <a href="https://www.michaelschoenenberger.ch">Michael Schönenberger</a>, <a href="mailto:katharina.durrer@zhdk.ch">Katharina Durrer</a> and <a href="mailto:dyonruiter@gmail.com">Dyon Ruiter</a>. It was developed at the ZHdK, the University of the Arts in Zurich, during the module Interactive Data Visualization with Joël Gähwiler and Benjamin Wiederkehr.
+            </div>
+            <div id="genreDiv">The visualization displays the correlation between popularity in music genres and drugs over the last 17 years. The goal was not to prove facts, but rather to let the viewer discover certain similarities and stimulate thoughts on what could have happened in a specific year. We chose two overlaying curves* to visualize the correlation.
+            </div>
+            <div id="genreDiv">*Each popularity curve was normalized in order to display the correlation visually more clear.
+            </div>
+            <div class="subtitle">Data Sources</div>
+            <div id="genreDiv">Music data: <a href="https://research.google.com/bigpicture/music/">Google Music Timeline</a>
+                <br>Drug data: <a href="https://erowid.org/experiences/">Erowid</a> and <a href="https://chemicalyouth.org/">Chemical Youth</a>
+                <br>Correlation Data: self-calculated using a <a href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient">Pearson Correlation</a> formula.
+            </div>
+            <div class="subtitle">Thanks to:</div>
+            <div id="genreDiv">
+                <a href="https://timogrossenbacher.ch/">Timo Grossenbacher</a>, for inspirational lessons on data journalism.
+                <br><a href="https://www.interactivethings.com/">Benjamin Wiederkehr</a>, for helpful Inputs on interactive visualizations.
+                <br><a href="https://joelgaehwiler.com/">Joël Gähwiler</a>, for mentoring and tech-support.
+                <br><a href="https://chemicalyouth.org/">Chemical Youth</a>, for sharing their data with us.
+                <br><a href="https://gist.github.com/matt-west/6500993">Matt West</a>, for creating a Pearson Correlation formula in Javascript.
+                <!-- <br>nightmare.js, d3.js and jQuery -->
+            </div>
+        </div>
+        <script type="text/javascript" src="jquery-3.2.1.js"></script>
+</body>
+
+</html>
