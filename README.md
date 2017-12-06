@@ -83,11 +83,11 @@ It is structured in music data, drug data and correlation data.
 Music Data: Google Music Timeline  
 Drug Data: erowid.org  
 Drug Data: Chemical Youth  
-Correlation Data: self-calculated using a Pearson Correlation formula  
+Correlation Data: self-calculated using a Pearson Correlation formula.
 
 ## Thanks to
 [Timo Grossenbacher](https://github.com/grssnbchr), for inspirational lessons on data journalism.  
 [Benjamin Wiederkehr](https://github.com/wiederkehr), for helpful Inputs on interactive visualizations.  
 [Joël Gähwiler](https://github.com/256dpi), for mentoring and tech-support.  
 [Chemical Youth](https://chemicalyouth.org/), for sharing their data with us.  
-[Matt West](https://gist.github.com/matt-west/6500993), for creating a Pearson Correlation formula in Javascript.  
+[Matt West](https://gist.github.com/matt-west/), for creating a [Pearson Correlation](https://gist.github.com/matt-west/6500993) formula in Javascript.  
