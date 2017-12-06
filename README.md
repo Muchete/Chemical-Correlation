@@ -4,8 +4,10 @@ Chemical Correlation is a project from Michael Schönenberger, Katharina Durrer 
 The interactive web version is available [here](http://cc.michaelschoenenberger.ch/).
 
 The visualization displays the correlation between popularity in music genres and drugs over the last 17 years. The goal was not to prove facts, but rather to let the viewer discover certain similarities and stimulate thoughts on what could have happened in a specific year. We chose two overlaying curves* to visualize the correlation.
+![Final poster](https://user-images.githubusercontent.com/29760709/33677649-c7200f9a-dab9-11e7-8cd1-7792bdc91a00.jpg)
 
 ## Erowid Scraper
+We scraped [erowid.org](https://www.erowid.org/experiences/exp_front.shtml) in order to get the popularity of certain drugs.
 
 1. Link the path of the node jQuery extension (line 37):
 ```javascript
@@ -34,6 +36,7 @@ const drugList = [
 
 ## Website
 
+![Website](https://user-images.githubusercontent.com/29760709/33673700-d4deaf4e-daad-11e7-8c91-d0a0a35f3e6e.png)
 The website can be seen in action on [Chemical Correlation](http://cc.michaelschoenenberger.ch/).
 
 ### How to read
