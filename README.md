@@ -9,6 +9,7 @@ _*Each popularity curve was normalized in order to display the correlation visua
 
 ## Erowid Scraper
 We scraped [erowid.org](https://www.erowid.org/experiences/exp_front.shtml) in order to get the popularity of certain drugs.
+To use the scraper, follow these instructions:
 
 1. Link the path of the node jQuery extension (line 37):
 ```javascript
@@ -34,9 +35,14 @@ const drugList = [
   211 //Morphine
 ];
 ```
+3. Configure the filename, or log the result to your console to test (line 68):
+```javascript
+console.dir(JSON.stringify(results));
+fs.writeFileSync("erowidData.json", JSON.stringify(results));
+```
+4. Run the script using node.js.
 
 ## Website
-
 ![Website](https://user-images.githubusercontent.com/29760709/33673700-d4deaf4e-daad-11e7-8c91-d0a0a35f3e6e.png)
 The website can be seen in action on [Chemical Correlation](http://cc.michaelschoenenberger.ch/).
 

@@ -66,6 +66,5 @@ urls.reduce(function(accumulator, url) {
   });
 }, Promise.resolve([])).then(function(results){
     console.dir(JSON.stringify(results));
-
     fs.writeFileSync("erowidData.json", JSON.stringify(results));
 });
