@@ -39,7 +39,7 @@ The website can be seen in action on [Chemical Correlation](http://cc.michaelsch
 ### How to read
 Green shows a certain drug, whereas red is a music genre. The X-axis represents time. Our visualization starts in 2000 and ends in 2017. The Y-axis shows the popularity in that specific year.
 
-* Each popularity curve was normalized in order to display the correlation visually more clear.
+*Each popularity curve was normalized in order to display the correlation visually more clear.
 
 We used a formula called the Pearson Correlation to calculate the similarities between our music genres and drugs.
 
