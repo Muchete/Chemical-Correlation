@@ -46,31 +46,31 @@ _*Each popularity curve was normalized in order to display the correlation visua
 
 We used a formula called the Pearson Correlation to calculate the similarities between our music genres and drugs.
 
-Top 10 similar curves: 
+    Top 10 similar curves: 
 
-1. Alternative/Indie & Meth
-2. Blues & Cannabis
-3. Hip Hop/Rap & Ketamine
-4. Jazz & Cannabis
-5. RnB/Soul & Meth
-6. Christian/Gospel & Meth
-7. Christian/Gospel & Mushrooms
-8. Dance/Electronic & Heroin
-9. Dance/Electronic & Cannabis
-10. Country & Cannabis
+    1. Alternative/Indie & Meth
+    2. Blues & Cannabis
+    3. Hip Hop/Rap & Ketamine
+    4. Jazz & Cannabis
+    5. RnB/Soul & Meth
+    6. Christian/Gospel & Meth
+    7. Christian/Gospel & Mushrooms
+    8. Dance/Electronic & Heroin
+    9. Dance/Electronic & Cannabis
+    10. Country & Cannabis
 
-Top 10 converse curves:
+    Top 10 converse curves:
 
-1. Christian/Gospel & LSD
-2. Rock & Heroin
-3. Blues & Meth
-4. Jazz & Meth
-5. Alternative/Indie & Cannabis
-6. Classical & LSD
-7. Pop & Meth
-8. Rock & Ketamine
-9. Blues & Cocaine
-10. Jazz & Cocaine
+    1. Christian/Gospel & LSD
+    2. Rock & Heroin
+    3. Blues & Meth
+    4. Jazz & Meth
+    5. Alternative/Indie & Cannabis
+    6. Classical & LSD
+    7. Pop & Meth
+    8. Rock & Ketamine
+    9. Blues & Cocaine
+    10. Jazz & Cocaine
 
 
 Plugins used:
