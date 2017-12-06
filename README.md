@@ -1,7 +1,7 @@
 # DataViz
 Code, used within the Data Visualisation module in 2017
 
-##Erowid Scraper
+## Erowid Scraper
 
 1. Link the path of the node jQuery extension (line 37):
 ```javascript
