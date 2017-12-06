@@ -3,8 +3,9 @@
 Chemical Correlation is a project from Michael Schönenberger, Katharina Durrer and Dyon Ruiter. It was developed in 2017 at the ZHdK, the University of the Arts in Zurich, during the module Interactive Data Visualization with Joël Gähwiler and Benjamin Wiederkehr.
 The interactive web version is available [here](http://cc.michaelschoenenberger.ch/).
 
-The visualization displays the correlation between popularity in music genres and drugs over the last 17 years. The goal was not to prove facts, but rather to let the viewer discover certain similarities and stimulate thoughts on what could have happened in a specific year. We chose two overlaying curves* to visualize the correlation.
-![Final poster](https://user-images.githubusercontent.com/29760709/33677649-c7200f9a-dab9-11e7-8cd1-7792bdc91a00.jpg)
+The visualization displays the correlation between popularity in music genres and drugs over the last 17 years. The goal was not to prove facts, but rather to let the viewer discover certain similarities and stimulate thoughts on what could have happened in a specific year. We chose two overlaying curves* to visualize the correlation.  
+![Final poster](https://user-images.githubusercontent.com/29760709/33677649-c7200f9a-dab9-11e7-8cd1-7792bdc91a00.jpg)  
+_*Each popularity curve was normalized in order to display the correlation visually more clear._ 
 
 ## Erowid Scraper
 We scraped [erowid.org](https://www.erowid.org/experiences/exp_front.shtml) in order to get the popularity of certain drugs.
@@ -42,8 +43,6 @@ The website can be seen in action on [Chemical Correlation](http://cc.michaelsch
 ### How to read
 Green shows a certain drug, whereas red is a music genre. The X-axis represents time. Our visualization starts in 2000 and ends in 2017. The Y-axis shows the popularity in that specific year.
 
-_*Each popularity curve was normalized in order to display the correlation visually more clear._ 
-
 We used a formula called the Pearson Correlation to calculate the similarities between our music genres and drugs.
 
     Top 10 similar curves: 
@@ -73,12 +72,11 @@ We used a formula called the Pearson Correlation to calculate the similarities b
     10. Jazz & Cocaine
 
 
-Plugins used:
+Plugins used on the website:
 - [d3.js](https://d3js.org/)
 - [jQuery](http://jquery.com/)
 
 ### Dataset
-
 The data is stored in the [ULTIMATE_DATA.json](https://github.com/Muchete/DataViz/blob/master/website/data/ULTIMATE_DATA.json) file.
 It is structured in music data, drug data and correlation data. 
 
