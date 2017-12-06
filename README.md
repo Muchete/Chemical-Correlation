@@ -8,7 +8,7 @@ The visualization displays the correlation between popularity in music genres an
 _*Each popularity curve was normalized in order to display the correlation visually more clear._ 
 
 ## Erowid Scraper
-We scraped [erowid.org](https://www.erowid.org/experiences/exp_front.shtml) in order to get the popularity of certain drugs.
+We scraped [erowid.org](https://www.erowid.org/experiences/exp_front.shtml) in order to get the popularity of certain drugs.  
 To use the scraper, follow these instructions:
 
 1. Link the path of the node jQuery extension (line 37):
