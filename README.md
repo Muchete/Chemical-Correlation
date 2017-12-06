@@ -93,4 +93,4 @@ Correlation Data: self-calculated using a Pearson Correlation formula.
 [Benjamin Wiederkehr](https://github.com/wiederkehr), for helpful Inputs on interactive visualizations.  
 [Joël Gähwiler](https://github.com/256dpi), for mentoring and tech-support.  
 [Chemical Youth](https://chemicalyouth.org/), for sharing their data with us.  
-[Matt West](https://gist.github.com/matt-west/), for creating a [Pearson Correlation](https://gist.github.com/matt-west/6500993) formula in Javascript.  
+[Matt West](https://github.com/matt-west), for creating a [Pearson Correlation](https://gist.github.com/matt-west/6500993) formula in Javascript.  
