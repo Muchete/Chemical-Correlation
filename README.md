@@ -27,3 +27,13 @@ const drugList = [
   211 //Morphine
 ];
 ```
+
+## Website
+
+The website can be seen in action on [Chemical Correlation](http://cc.michaelschoenenberger.ch/).
+
+Plugins used:
+- [d3.js](https://d3js.org/)
+- [jQuery](http://jquery.com/)
+
+### Dataset
