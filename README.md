@@ -1,6 +1,13 @@
 # DataViz
 Code, used within the Data Visualisation module in 2017
 
+##Erowid Scraper
+
+1. Link the path of the node jQuery extension (line 37):
+```javascript
+.inject('js', '/Users/michaelschonenberger/scraping-project/node_modules/jquery/dist/jquery.js')
+```
+2. Specify the drugs to scrape (line 9):
 ```javascript
 const drugList = [
   1, //Cannabis
