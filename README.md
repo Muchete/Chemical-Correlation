@@ -4,6 +4,7 @@ Chemical Correlation is a project from Michael Schönenberger, Katharina Durrer 
 The interactive web version is available [here](http://cc.michaelschoenenberger.ch/).
 
 The visualization displays the correlation between popularity in music genres and drugs over the last 17 years. The goal was not to prove facts, but rather to let the viewer discover certain similarities and stimulate thoughts on what could have happened in a specific year. We chose two overlaying curves* to visualize the correlation.  
+
 ![Final poster](https://user-images.githubusercontent.com/29760709/33677649-c7200f9a-dab9-11e7-8cd1-7792bdc91a00.jpg)  
 _*Each popularity curve was normalized in order to display the correlation visually more clear._ 
 
